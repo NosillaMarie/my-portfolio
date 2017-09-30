@@ -1,10 +1,9 @@
 .container.main {
     margin-top: 8%;
-    margin-bottom:
 }
 
-.footer {
-    position: absolute;
+.navbar-fixed-bottom {
+    /*    position: absolute;*/
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -20,4 +19,32 @@
 .text-muted {
     text-align: center;
     margin-top: 1.9%;
+}
+
+#github {
+    clear: both;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+}
+
+#stackoverflow {
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+}
+
+.links {
+    min-width: 292px;
+}
+
+.second {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
